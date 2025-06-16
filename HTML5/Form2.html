@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!--Hint-Usethefollowing:-
+    -RadioButtonforSex
+    -GiveOptions:India,Nepal,USA,CanadaforCountry
+    -TextAreaforMessage
+    -CheckboxforSubscribe
+    -SubmitButton-->
+
+    <form action="?action">
+        <label for="Name">Name:</label>
+        <input type="text" id="Nmae" name="Name">
+        <br><br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">male</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">female</label>
+        <br><br>
+        <label for="con">Contury:</label>
+        <select name="con" id="con">
+            <option value="sel">Select an option</option>
+            <option value="ind">India</option>
+            <option value="nez">Newzeland</option>
+            <option value="aus">Austrelia</option>
+            <option value="nap">Nepal</option>
+        </select><br><br>
+
+        <label for="msg">Message:</label><br>
+        <input type="textarea" name="msg" id="msg" cols="30">
+        <br>
+
+        <input type="checkbox" name="select" id="select">
+        <label for="select">Subscribe</label><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
