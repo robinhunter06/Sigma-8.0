@@ -1,0 +1,12 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    transition: margin 2s ease 0.5s;
+    margin: 300px;
+}
+
+div:hover{
+    background-color: aqua;
+    margin: 10px;
+}
